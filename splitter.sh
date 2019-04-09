@@ -1,5 +1,5 @@
 #!/bin/bash
-FILENAME=rubi_kiip_1H2018.csv
+FILENAME=your_file.csv
 HDR=$(head -1 ${FILENAME})
 split -l 1000 ${FILENAME} xyz
 n=1
